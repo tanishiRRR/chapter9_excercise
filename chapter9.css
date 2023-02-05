@@ -1,0 +1,79 @@
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main{
+  width: 960px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-visual{
+  width: 300px;
+  background-color: #eee;
+}
+
+main .main-visual:nth-child(2){
+  margin: 0 30px;
+}
+
+.blog-image1{
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(chapter9_img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.blog-image2{
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(chapter9_img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.blog-image3{
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(chapter9_img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.blog-title{
+  margin: 0 10px 5px 10px;
+}
+
+.blog-text{
+  margin: 0 10px 0 10px;
+}
+
+.main-visual{
+  position: relative;
+}
+
+.blog-category{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
